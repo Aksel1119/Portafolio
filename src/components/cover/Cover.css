@@ -1,0 +1,58 @@
+.cover-container{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../../media/fondo.svg') ;
+    background-size: cover;
+    
+}
+/* 
+.fondo{
+    object-fit: cover;
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    background-color: #038373;
+    z-index: -1;
+} */
+
+.cover-container > h1{
+    color: white;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-container > p{
+    margin-top: 8px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.pdf{
+    color: white;
+    text-decoration: none;
+}
+.pdf:hover{
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:960px){
+   
+    .cover-container>h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .cover-container >p{
+        text-align: center;
+        font-size: 14px;
+        width: 80%;
+    }
+}

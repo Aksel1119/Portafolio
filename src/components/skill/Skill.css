@@ -1,0 +1,156 @@
+.custom-shape-divider-top-1637180662-skill {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* margin-top: -100px; */
+}
+
+.custom-shape-divider-top-1637180662-skill svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1637180662-skill .shape-fill {
+    fill:  #038373;
+}
+
+
+
+.skill-show{
+    color: white;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    height: 122vh;
+    justify-content: center;
+    /*aquamarine*/
+    
+}
+
+.skill-show >h3{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.SkillSection{
+    margin: 1rem 0;
+    
+    }
+
+    .skill-container{
+        padding: 0% 0% 0% 10%;
+    }
+    
+        .skill-tittle{
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+        .skill-tittle >.icono{
+            font-size: 1.6rem;
+            font-weight: 100;
+        }
+    
+        .skill-text{
+            margin-top: 5px;
+        }
+        .skill-bar{
+            display: flex;
+            align-items: center;
+            padding: 0px;
+           
+        }
+    
+            .skill-progress{
+               width: 80%;
+               padding-bottom: 5px;
+            }
+            .progress{
+                width: 100%;
+                height: .5rem;
+                margin-left: 1rem;
+                background-color: #038373;
+                position: relative;
+                
+
+            }
+
+            .inner-progress{
+                background-color: #00CC8E;
+                position: absolute;
+                height: 100%;
+                
+            }
+            /* .progress::after{
+                content:"" ;
+                width: 70%;
+                background-color: yellow;
+                position: absolute;
+                height: 100%;
+                bottom: 0;
+                left: 0;
+            } */
+
+            
+ 
+.skillsContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+    row-gap: 1rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+  
+     }
+  
+  
+     @media only screen and (max-width:960px) {
+        .custom-shape-divider-top-1637180662-skill {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            
+            /* margin-top: -100px; */
+        }
+        
+        .custom-shape-divider-top-1637180662-skill svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 150px;
+        }
+        
+        .custom-shape-divider-top-1637180662-skill .shape-fill {
+            fill:  #038373;
+        }
+
+        
+      .skillsContainer{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0;
+      /*grid-template-columns: repeat(1,1fr);
+      column-gap: 1rem;
+      row-gap: 1rem;
+      margin: 1rem 0;
+      border: black solid 2px;*/
+  
+     }
+
+     .skill-show{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    
+    }
+    
+    }

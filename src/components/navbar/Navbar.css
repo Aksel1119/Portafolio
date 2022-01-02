@@ -1,0 +1,64 @@
+/* .navbar{
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.scrolling{
+    background-color: black;
+    transition: all 0.5s ease;
+    color: #30CCC5;
+}
+.scrolling .navbar-logo{
+    transition: all 0.5s ease;
+    color: #30CCC5;
+}
+
+
+.navbar-logo{
+    height: 80px;
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.navbar-text{
+    color: white;
+    line-height: 80px;
+    cursor: pointer;
+    text-align: right;
+    width: 84%;
+   
+}
+
+.navbar-text>a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 35px;
+}
+
+.navbar-text>a:hover{
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width:420px) {
+    .navbar{
+        position: fixed;
+        top: 0;
+        background-color: transparent;
+        width: 100%;
+        height: 80px;
+        padding-left: 10px;
+        font-size: 18px;
+        z-index: 1;
+    }
+
+} */

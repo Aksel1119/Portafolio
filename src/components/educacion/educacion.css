@@ -1,0 +1,133 @@
+.custom-shape-divider-top-1637180662-edu {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* margin-top: -100px; */
+}
+
+.custom-shape-divider-top-1637180662-edu svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1637180662-edu .shape-fill {
+    fill:  black;
+}
+
+
+.about-container3{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 122vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Verde: #009569*/
+
+.about-container3 >h3{
+    padding-bottom: 40px;
+}
+
+.about-desc3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+/*    padding: 0 100px 0 100px;*/
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card2{
+    width: 30%;
+    margin: 10px;
+    transition: 0.5s ease-in-out;
+    background-color:#872531 ;
+    border-radius: 20px;
+   
+}
+
+.card-body2{
+   color: white;
+    padding: 10px;
+}
+
+.card-body2> h5{
+    font-weight: bold;
+ }
+
+ .card-body2> h5, .edu-title{
+    text-align: center;
+   
+ }
+
+.card-img-top2{
+    height: 50%;
+    width: 50%;
+}
+
+
+
+.card2:hover{
+    margin-top: -5px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: 0.5s ease;
+  
+}
+
+.card2:hover > .card-img-top2{
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.card2:hover >.card-body2> h5{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3px;
+    transition: 0.5s ease-in-out;
+ }
+
+.card-img-top2{
+    transition: 0.5s ease-in-out; 
+}
+
+
+
+
+@media only screen and (max-width:960px) {
+
+  
+    
+    .about-container3{
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+       
+    }
+
+    .about-desc3{
+        width: 100%;
+    }
+
+    .card2{
+        width: 290px;
+        margin-bottom: 20px;
+    }
+
+
+    /* .about-desc2 >h3{
+        font-size: 20px;
+        text-align: center;
+    } */
+
+   
+}

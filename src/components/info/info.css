@@ -1,0 +1,48 @@
+.custom-shape-divider-top-1637180662 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    /* margin-top: -100px; */
+}
+
+.custom-shape-divider-top-1637180662 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1637180662 .shape-fill {
+    fill:  rgb(48, 230, 169);
+}
+
+.info-container{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    color: black;
+    margin-bottom: 100vh;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: -100px;
+}
+
+@media only screen and (max-width:960px){
+    .info-container{
+        height: 300px;
+        width: 100%;
+    }
+
+    .info >h1{
+        text-align: center;
+        font-size: 25px;
+    }
+}
